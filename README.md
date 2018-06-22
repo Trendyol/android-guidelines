@@ -1,2 +1,11 @@
-# android-guidelines
-Architecture and code guidelines at Trendyol when developing for Android.
+# Android Guidelines
+List of Architecture and code guidelines at Trendyol when developing for Android.
+
+* [Package Guideline](README.md)
+* [App Architecture Guideline](README.md)
+* [Code Style Guideline](README.md)
+* [Gradle Guideline](README.md)
+* [Analytics Architecture Guideline](README.md)
+* [Resources Naming Guideline](README.md)
+* [App UI Guideline](README.md)
+* [Deeplink Guideline](README.md)
