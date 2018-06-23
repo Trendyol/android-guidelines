@@ -1,4 +1,4 @@
-# Android Guidelines
+# Android Guidelines (work-in-progress 🔧️⛏)
 List of Architecture and code guidelines at Trendyol when developing for Android.
 
 * [Package Guideline](README.md)
