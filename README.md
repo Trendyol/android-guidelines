@@ -6,6 +6,6 @@ List of Architecture and code guidelines at Trendyol when developing for Android
 * [Code Style Guideline](README.md)
 * [Gradle Guideline](README.md)
 * [Analytics Architecture Guideline](README.md)
-* [Resources Naming Guideline](README.md)
+* [Resources Naming Guideline](resource_naming_guideline/resource_naming_guideline.md)
 * [App UI Guideline](README.md)
 * [Deeplink Guideline](README.md)
