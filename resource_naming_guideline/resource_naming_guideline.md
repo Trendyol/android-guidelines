@@ -14,14 +14,14 @@
 
 
 ## id
-> **\<what>\_\<where>\_\<description>** (camelCase and snake_case)
+> **\<what>\_\<description>** (camelCase)
 
-| what           | where                     | description                   | sample                                    |
-| :------------- | :------------------------ | :---------------------------- | :---------------------------------------- |
-| textView       | in SplashActivity         | welcome message               | textView_splash_welcome                   |
-| button         | in ProductDetailFragment  | add to favorite               | button_productDetail_addFavorite          |
-| recyclerView   | in SelectSizeDialog       | size option list              | recyclerView_selectSize                   |
-| relativeLayout | in NewYearPromotionDialog | main container of dialog      | relativeLayout_newYearPromotion_container |
-| layout         | in SearchResult           | included layout for no result | layout_searchResult_noResult              |
-| imageView      | in AccountActivity        | user profile image            | imageView_account_profile                 |
-| swipeRefreshLayout | in ProductListLayout  | refresh product listing      | swipeRefreshLayout_productList            |
+| what               | description                   | sample                                    |
+| :----------------- | :---------------------------- | :---------------------------------------- |
+| textView           | welcome message               | textViewWelcome                           |
+| button             | add to favorite               | buttonAddFavorite                         |
+| recyclerView       | size option list              | recyclerViewSelectSize                    |
+| relativeLayout     | main container of dialog      | relativeLayoutContainer                   |
+| layout             | included layout for no result | layoutNoResult                            |
+| imageView          | user profile image            | imageViewAccountProfile                   |
+| swipeRefreshLayout | refresh product listing       | swipeRefreshLayoutProductList             |
