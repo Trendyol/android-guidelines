@@ -25,3 +25,15 @@
 | layout             | included layout for no result | layoutNoResult                            |
 | imageView          | user profile image            | imageViewAccountProfile                   |
 | swipeRefreshLayout | refresh product listing       | swipeRefreshLayoutProductList             |
+
+
+## string
+> **\<where>\_\<description>** (snake_case)
+
+| where          | description     | value                            | sample                          |
+| :------------- | :-------------- | :------------------------------- | :------------------------------ |
+| product detail | product info    | Ürün Bilgileri                   | product_detail_product_info     |
+| everywhere     | no result       | Sonuç Bulunamadı                 | common_no_result                |
+| edit address   | success message | Adresiniz başarıyla güncellendi. | edit_address_success            |
+| filter         | title           | Filtreleme                       | filter_title                    |
+| filter         | filter button   | Ürünleri Listele (%d)            | filter_button_text              |
