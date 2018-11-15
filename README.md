@@ -9,3 +9,4 @@ List of Architecture and code guidelines at Trendyol when developing for Android
 * [Resources Naming Guideline](resource_naming_guideline/resource_naming_guideline.md)
 * [App UI Guideline](README.md)
 * [Deeplink Guideline](README.md)
+* [Android Studio Live Templates](android_studio_live_templates/android_studio_live_templates.md)
