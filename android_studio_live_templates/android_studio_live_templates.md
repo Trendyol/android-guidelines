@@ -12,5 +12,5 @@ Restart and all is done there is nothing to say!
 
 ## Currently available templates:
 
-* [TrendyolUI](android_studio_live_templates/trendyolui.zip)
-* [TrendyolData](android_studio_live_templates/trendyoldata.zip)
+* [TrendyolUI](trendyolui.zip)
+* [TrendyolData](trendyoldata.zip)
