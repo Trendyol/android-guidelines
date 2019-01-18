@@ -9,3 +9,8 @@ Download or clone this repository and copy all the files `trendyoldata.zip` and 
 For more details check this link for config folder depending on your OS: [https://www.jetbrains.com/help/idea/2017.1/sharing-live-templates.html#config_file_location](https://www.jetbrains.com/help/idea/2017.1/sharing-live-templates.html#config_file_location)
 
 Restart and all is done there is nothing to say!
+
+## Currently available templates:
+
+* [TrendyolUI](android_studio_live_templates/trendyolui.zip)
+* [TrendyolData](android_studio_live_templates/trendyoldata.zip)
