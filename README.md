@@ -10,3 +10,4 @@ List of Architecture and code guidelines at Trendyol when developing for Android
 * [App UI Guideline](README.md)
 * [Deeplink Guideline](README.md)
 * [Android Studio Live Templates](android_studio_live_templates/android_studio_live_templates.md)
+* [Architecture Decision Records](architecture_decision_records/architecture_decision_records.md)
