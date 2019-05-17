@@ -14,8 +14,7 @@ In the context of "use case/user story u" facing "concern c" we decided for "opt
 
 Status : Adopted
 
-In the context of custom view initialization facing concern of 
-
+In the context of custom view creation facing concern of tight coupling we decided to create models just for custom view's domain and neglected using common UI models,to achieve loose coupling between app components.
 
 
 ## 08.05.2019 - Create Item View States in Adapters
