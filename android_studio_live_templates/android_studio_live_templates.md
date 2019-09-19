@@ -4,7 +4,7 @@ Collection of Templates for Android Studio / Intellij IDEA.
 
 ## Installation
 
-Download or clone this repository and copy all the files `TrendyolData.zip` and `TrendyolUI.zip` to your AndroidStudio's templates folder
+Download or clone this repository and copy all the files `trendyoldata.zip` and `trendyolui.zip` to your AndroidStudio's templates folder
 
 - Windows:  <your_user_home_directory>\.IntelliJ IDEA<version_number>\config\templates
 - Linux:    ~IntelliJ IDEA<version>/config/templates
@@ -16,5 +16,5 @@ Restart and all is done there is nothing to say!
 
 ## Currently available templates:
 
-* [TrendyolUI](TrendyolUI.zip)
-* [TrendyolData](TrendyolData.zip)
+* [TrendyolUI](trendyolui.zip)
+* [TrendyolData](trendyoldata.zip)
