@@ -15,7 +15,7 @@ Restart and all is done there is nothing to say!
 
 ## Templates
 
-* [TrendyolUI](trendyolui.zip)
+* [TrendyolUI](TrendyolUI.zip)
 
 	+ Layout With DataBinding
 
@@ -30,7 +30,7 @@ Restart and all is done there is nothing to say!
 	+ ViewModelModule
 
 
-* [TrendyolData](trendyoldata.zip)
+* [TrendyolData](TrendyolData.zip)
 
 	+ DataSource
 
