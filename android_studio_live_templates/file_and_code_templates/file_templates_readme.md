@@ -1,6 +1,6 @@
-# Android Studio Templates
+# File Templates
 
-Collection of Templates for Android Studio / Intellij IDEA.
+Collection of file templates for Android Studio / Intellij IDEA.
 
 ## Installation
 
