@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<template format="4"
+        revision="1"
+        name="Trendyol Data Template"
+        description="Creates Trendyol Repository and Data classes">
+
+    <category value="Trendyol"/>
+
+    <parameter id="className"
+        name="Functionality Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="Trendyol Repository"
+        help="The name of the functionality that requires Trendyol Data template"/>
+
+    <parameter
+        id="includeLocalDataSource"
+        name="Is include local data source?"
+        type="boolean"
+        default="false"
+        help="Generate local data source for repository" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>

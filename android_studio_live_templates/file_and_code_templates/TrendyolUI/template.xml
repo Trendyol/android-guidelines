@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<template format="4"
+        revision="1"
+        name="Trendyol UI Template"
+        description="Creates Trendyol UI classes - Fragment, ViewModel, FragmentBuilderModule etc.">
+
+    <category value="Trendyol"/>
+
+    <parameter id="className"
+        name="Functionality Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="TrendyolUI"
+        help="The name of the functionality that requires Trendyol UI template" />
+
+    <parameter id="layout"
+        type="string"
+        constraints="layout|nonempty|unique"
+        default="fragment_${extractLetters(className?lower_case)}"
+        help="The layout of the functionality that requires Trendyol UI template"
+        name="Object content layout file name" />
+
+    <parameter
+        id="screenKey"
+        type="string"
+        constraints="nonempty"
+        default="${className}"
+        suggest="${className}"
+        help="The key of the functionality that requires Trendyol UI template"
+        name="Screen Key of Functionality"/>
+
+    <parameter
+        id="generatePageViewState"
+        name="Generate fragment page view state?"
+        type="boolean"
+        default="true"
+        help="Generate fragment page view state" />
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
