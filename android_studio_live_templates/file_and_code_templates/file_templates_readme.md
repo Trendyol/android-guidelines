@@ -13,34 +13,33 @@ Download or clone this repository and copy all the files `trendyoldata.zip` and 
 
 Restart and all is done there is nothing to say!
 
-## Templates:
+## Templates
 
 * [TrendyolUI](trendyolui.zip)
-### Content 
-- Layout With DataBinding
 
-- Fragment
+	+ Layout With DataBinding
 
-- FragmentBuilderModule
+	+ Fragment
 
-- PageViewState
+	+ FragmentBuilderModule
 
-- ViewModel
+	+ PageViewState
 
-- ViewModelModule
+	+ ViewModel
+
+	+ ViewModelModule
 
 
 * [TrendyolData](trendyoldata.zip)
-### Content
 
-- DataSource
+	+ DataSource
 
-- LocalDataSource
+	+ LocalDataSource
 
-- RemoteDataSource
+	+ RemoteDataSource
 
-- Repository
+	+ Repository
 
-- RepositoryImpl
+	+ RepositoryImpl
 
-- Service
+	+ Service

@@ -1,1 +1,0 @@
-<img src="https://github.com/Trendyol/android-guidelines/edit/master/android_studio_live_templates/art/live_data.gif" width="1024">

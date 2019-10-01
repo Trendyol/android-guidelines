@@ -14,6 +14,6 @@
 
 # Example GIFS
 
-[BackTick Test Function](back_tick_test_function.md)
+<a href="https://github.com/Trendyol/android-guidelines/blob/master/android_studio_live_templates/art/test_function.gif" target="_blank">BackTick Test Function</a>
 
-[LiveData](live_data.md)
+<a href="https://github.com/Trendyol/android-guidelines/blob/master/android_studio_live_templates/art/live_data.gif" target="_blank">LiveData</a>
