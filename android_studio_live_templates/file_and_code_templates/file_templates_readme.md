@@ -43,3 +43,8 @@ Restart and all is done there is nothing to say!
 	+ RepositoryImpl
 
 	+ Service
+
+
+* [TrendyolMapper](TrendyolMapper.zip)
+
+	+ Mapper
