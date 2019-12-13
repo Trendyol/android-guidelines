@@ -1,0 +1,2 @@
+<img src="https://raw.githubusercontent.com/Trendyol/android-guidelines/master/ci_ci/leylek_user_flow.png">  
+<img src="https://raw.githubusercontent.com/Trendyol/android-guidelines/master/ci_ci/basic_sequence_diagram_example.png">
