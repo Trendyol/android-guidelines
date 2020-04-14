@@ -10,7 +10,7 @@ We have been neglected to update ADR for a while. During this period some decisi
 
 ## Decision
 
-We update out ADR temlate with called [Markdown Architectural Decision Records(MADR)][1]. We are inspired its approaches and also updated some sections according to our use cases.
+We update out ADR template with called [Markdown Architectural Decision Records(MADR)][1]. We are inspired its approaches and also updated some sections according to our use cases.
 
 ### Positive Consequences 
 
