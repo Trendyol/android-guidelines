@@ -1,30 +1,12 @@
-#  Architecture Decision Records
-
-An architectural decision record (ADR) is a document that captures an important architectural decision made along with its context and consequences.
-
 # Architecture Decision Log
 
-An architecture decision log (ADL) is the collection of all ADRs created and maintained for a particular project (or organization).
+This architecture decision log (ADL) is the collection of all ADRs created and maintained by Trendyol Android Team for a particular project (or organization).
 
-#  Draft
-
-In the context of "use case/user story u" facing "concern c" we decided for "option o" and neglected "other options", to achieve "system qualities/desired consequences", accepting "downside d/undesired consequences", because "additional rationale".
-
-## 13.05.2019 - Custom Views Should Have Their Own Models
-
-Status : Adopted
-
-In the context of custom view creation facing concern of tight coupling we decided to create models just for custom view's domain and neglected using common UI models,to achieve loose coupling between app components.
+- [ADR-0000](adr/0000-create-multiple-ui-network-models.md) - Create Multiple UI & Network Models
+- [ADR-0001](adr/0001-create-item-view-states-in-adapters.md) - Create Item View States in Adapters
+- [ADR-0002](adr/0002-custom-views-should-have-their-own-models.md) - Custom Views Should Have Their Own Models
+- [ADR-0003](adr/0003-update-adr-template-with-madr.md) - Update ADR template with Markdown Architectural Decision Records
 
 
-## 08.05.2019 - Create Item View States in Adapters
+For new ADRs, please use [template.md](https://github.com/Trendyol/android-guidelines/blob/master/architecture_decision_records/template.md) as basis. When this template was creating, we inspired from [MADR](https://adr.github.io/madr/).
 
-Status: Adopted
-
-In the context of item view state creation facing concern of tight coupling we decided to create item view states in adapters and neglected creating item view states in viewmodels/usecases, to achieve consistency and seperation of concerns. 
-
-## 01.05.2019 - Create Multiple UI&Network Models 
-
-Status: Adopted
-
-In the context of creating multiple model classes for network and ui layers facing concern of creating god objects and limiting the ability to modularize the application we decided to use multiple model classes and neglected using a single model class, to achieve flexibility and fewer dependencies.
