@@ -11,7 +11,7 @@
         type="string"
         constraints="nonempty|class|unique"
         default="Mapper"
-        name="Fragment class name" />
+        name="Mapper class name" />
 
     <parameter
         id="source1"
@@ -20,7 +20,7 @@
         name="Source class name" />
 
     <parameter
-        id="addDataSource1"
+        id="addDataSource2"
         name="Is add new data source?"
         type="boolean"
         default="false"
@@ -30,44 +30,44 @@
         id="source2"
         type="string"
         constraints="nonempty|class|unique"
-        visibility="addDataSource1"
-        name="Source class name" />
-
-    <parameter
-        id="addDataSource2"
-        name="Is add new data source?"
-        type="boolean"
-        default="false"
-        visibility="addDataSource1"
-        help="Add data source for mapper" />
-
-    <parameter
-        id="source3"
-        type="string"
-        constraints="nonempty|class|unique"
         visibility="addDataSource2"
-        name="Source class name" />
+        name="Source class name 2" />
 
     <parameter
         id="addDataSource3"
         name="Is add new data source?"
         type="boolean"
         default="false"
-        visibility="${addDataSource2}"
+        visibility="addDataSource2"
+        help="Add data source for mapper" />
+
+    <parameter
+        id="source3"
+        type="string"
+        constraints="nonempty|class|unique"
+        visibility="addDataSource3"
+        name="Source class name 3" />
+
+    <parameter
+        id="addDataSource4"
+        name="Is add new data source?"
+        type="boolean"
+        default="false"
+        visibility="addDataSource3"
         help="Add data source for mapper" />
 
     <parameter
         id="source4"
         type="string"
         constraints="nonempty|class|unique"
-        visibility="${addDataSource3}"
-        name="Source class name" />
+        visibility="addDataSource4"
+        name="Source class name 4" />
 
     <parameter
         id="target"
         type="string"
         constraints="nonempty|class|unique"
-        suggest="${extractLetters(objectKind)}Fragment"
+        suggest="${extractLetters(source1)}"
         name="Target class name" />
 
     <globals file="globals.xml.ftl" />

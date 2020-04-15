@@ -10,7 +10,7 @@
         name="Functionality Name"
         type="string"
         constraints="class|unique|nonempty"
-        default="Trendyol Repository"
+        default="TrendyolFeature"
         help="The name of the functionality that requires Trendyol Data template"/>
 
     <parameter

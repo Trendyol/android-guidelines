@@ -1,6 +1,6 @@
 package ${packageName}
 
-import com.trendyol.ui.di.FragmentScope
+import com.trendyol.androidcore.annotation.scope.FragmentScope
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
