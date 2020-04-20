@@ -13,5 +13,5 @@ In the context of implementation mapper classes facing concern of methods of app
 
 ## Options <!-- optional -->
 
-* [using template](https://github.com/Trendyol/android-guidelines/blob/master/android_studio_live_templates/file_and_code_templates/file_templates_readme.md)
-* using interface
+* [Using Template](https://github.com/Trendyol/android-guidelines/blob/master/android_studio_live_templates/file_and_code_templates/file_templates_readme.md)
+* Using Interface
