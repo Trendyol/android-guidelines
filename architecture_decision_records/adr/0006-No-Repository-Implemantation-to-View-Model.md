@@ -1,7 +1,7 @@
 # No Repository Implemantation to View Model
 
 * Status: accepted
-* Date: 
+* Date: 2019-11-10
 
 ## Context and Problem Statement
 
