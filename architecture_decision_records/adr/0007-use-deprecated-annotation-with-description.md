@@ -1,7 +1,7 @@
 # Use Deprecated Annotation With Description
 
 * Status: accepted
-* Date: 2020-03-20 
+* Date: 2020-06-18
 
 ## Context and Problem Statement
 
