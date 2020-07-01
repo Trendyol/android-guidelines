@@ -17,8 +17,7 @@ When we decide to use deprecated annotation in classes, we need to comment reaso
 
 @Deprecated(
     message = "This class is deprecated due to unused fields. Check Pixel.Builder for new fields and creation.",
-    replaceWith = ReplaceWith(expression = "Pixel", imports = ["com.trendyol.new.package"],
-    level = DeprecationLevel.CONSTRUCTOR
+    replaceWith = ReplaceWith(expression = "Pixel", imports = ["com.trendyol.new.package"]
 )
 class NexusOne() { ... }
 
