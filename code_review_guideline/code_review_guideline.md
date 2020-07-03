@@ -3,7 +3,7 @@
 - Branch name as SPRINT/ISSUE_KEY/feature_name
 - Commit message as ISSUE_KEY | Change summary in imperative mood
 - Using dev_process branches for large features
-- Max line lenght as 120
+- Max line length as 120
 - Declaring return type for methods
 - Pushing comment outed code to repository if only it has TODO or explanation
 - Creating JIRA tasks if TODOs are not solved any time soon
