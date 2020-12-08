@@ -7,5 +7,5 @@
      * @see https://jtracker.trendyol.com/browse/MLBS-881
      */
     @Test
-    fun givenNewUserAndDeclinePermissionThenShouldShowPermissionDeclinedPage()
+    fun givenPreconditionsThenExpectedBehavior()
 ```
