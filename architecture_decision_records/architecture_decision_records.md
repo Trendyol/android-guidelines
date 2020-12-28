@@ -9,7 +9,7 @@ This architecture decision log (ADL) is the collection of all ADRs created and m
 - [ADR-0004](adr/0004-use-template-for-mapper-class.md) - Use Template for Mapper Class
 - [ADR-0005](adr/0005-use-same-mapper-for-library-and-ui-model.md) - Use Same Mapper Class for Library and Ui Model
 - [ADR-0006](adr/0006-no-repository-implemantation-to-view-model.md) - No Repository Implemantation to View Model
-- [ADR-0007](adr/0007-use-deprecated-annotation-with-description.md) - Use Deprecated Annotion With Description
+- [ADR-0007](adr/0007-use-deprecated-annotation-with-description.md) - Use Deprecated Annotion with Description
 
 
 For new ADRs, please use [template.md](https://github.com/Trendyol/android-guidelines/blob/master/architecture_decision_records/template.md) as basis. When this template was creating, we inspired from [MADR](https://adr.github.io/madr/).
