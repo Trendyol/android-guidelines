@@ -4,7 +4,7 @@
 - Each test method should have related Jira link just as below:
 ```kotlin
      /**
-     * @see https://jtracker.trendyol.com/browse/MLBS-881
+     * @see https://****.com/browse/MLBS-881
      */
     @Test
     fun givenPreconditionsThenExpectedBehavior()
