@@ -17,7 +17,7 @@ ViewModel, and ViewState provides a solution us when we need to follow this appr
 we develop user interface for a fragment or a feature, we prefer to create custom views and ViewStates to update these views. 
 Using ViewState classes not only creates more testable code, but also makes layout files in the app more readable.
 
-![UI/View](https://github.com/Trendyol/android-guidelines/blob/feature/app_arch/app_architecture_guideline/diagrams/ui.png)
+![UI/View](https://github.com/Trendyol/android-guidelines/blob/master/app_architecture_guideline/diagrams/ui.png)
 
 ```kotlin
 data class PageViewState(
