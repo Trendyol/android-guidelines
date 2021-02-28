@@ -17,7 +17,7 @@ When we need to create data with condition or any fields provided from different
 which we named Decider. Our motivation is that we move any logic to different classes and take out from encapsulation to 
 create testable codes.
 
-![UseCase Diagram](https://github.com/Trendyol/android-guidelines/blob/feature/app_arch/app_architecture_guideline/diagrams/use-case.png)
+![UseCase Diagram](https://github.com/Trendyol/android-guidelines/blob/master/app_architecture_guideline/diagrams/use-case.png)
 
 ```kotlin
 // Simple UseCase Implementation
