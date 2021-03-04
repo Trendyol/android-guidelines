@@ -21,7 +21,7 @@ fragment or services. In most cases, LiveData holds ViewState classes in the app
 held by *SingleLiveEvent* that extended from MutableLiveData to display Snackbar, AlertDialog, etc. Any changes in LiveData’s 
 values is updated in main thread during data flow to trigger observables in UI controller.
 
-![ViewModel](https://github.com/Trendyol/android-guidelines/blob/feature/app_arch/app_architecture_guideline/diagrams/viewmodel.png)
+![ViewModel](https://github.com/Trendyol/android-guidelines/blob/master/app_architecture_guideline/diagrams/viewmodel.png)
 
 ```kotlin
 class SampleViewModel @Inject constructor(

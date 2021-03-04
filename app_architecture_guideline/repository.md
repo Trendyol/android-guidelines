@@ -13,7 +13,7 @@ For example, when we call remote API:
 * remote data source is called
 * when response is provided, data is wrapped
 
-![Repository](https://github.com/Trendyol/android-guidelines/blob/feature/app_arch/app_architecture_guideline/diagrams/repository.png)
+![Repository](https://github.com/Trendyol/android-guidelines/blob/master/app_architecture_guideline/diagrams/repository.png)
 
 ```kotlin
 class Repository @Inject constructor(
@@ -45,7 +45,7 @@ Retrofit returns data as Single or Completable. If the response isn’t importan
 method is Completable, otherwise it is Single. After the successful response which is Single, the data is converted into an 
 Observable in Remote Data Source to continue data flow.
 
-![Remote Data Source](https://github.com/Trendyol/android-guidelines/blob/feature/app_arch/app_architecture_guideline/diagrams/remote-data-source.png)
+![Remote Data Source](https://github.com/Trendyol/android-guidelines/blob/master/app_architecture_guideline/diagrams/remote-data-source.png)
 
 ```kotlin
 class RemoteDataSource @Inject constructor(
@@ -82,7 +82,7 @@ object from JSON representation or convert the object to JSON, Gson is used.
 * In some use cases like info texts, data is provided remotely at first and then, it is cached in **memory** as any types of data 
 structure.
 
-![Local Data Source](https://github.com/Trendyol/android-guidelines/blob/feature/app_arch/app_architecture_guideline/diagrams/local-data-source.png)
+![Local Data Source](https://github.com/Trendyol/android-guidelines/blob/master/app_architecture_guideline/diagrams/local-data-source.png)
 
 ```kotlin
 // Local Data source with Room
