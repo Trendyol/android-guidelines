@@ -11,3 +11,4 @@ List of Architecture and code guidelines at Trendyol when developing for Android
 * [Architecture Decision Records](architecture_decision_records/architecture_decision_records.md)
 * [Trendyol Android Open Source](trendyol_android_oss/trendyol_android_oss.md)
 * [UI Test Guideline](ui_test_guideline/ui_test_guideline.md)
+* [Module Guideline](module_guideline/module_guideline.md)
