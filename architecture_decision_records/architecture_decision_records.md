@@ -14,5 +14,6 @@ This architecture decision log (ADL) is the collection of all ADRs created and m
 - [ADR-0009](adr/0009-gradle-rules.md) - Gradle file rules
 - [ADR-0010](adr/0010-dependency-rules.md) - Dependency configuration rules
 - [ADR-0011](adr/0011-resource-management.md) - Resource management
+- [ADR-0012](adr/0012-multi-module-navigation.md) - Multi module navigation
 
 For new ADRs, please use [template.md](https://github.com/Trendyol/android-guidelines/blob/master/architecture_decision_records/template.md) as basis. When this template was creating, we inspired from [MADR](https://adr.github.io/madr/).

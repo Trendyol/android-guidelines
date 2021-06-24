@@ -17,5 +17,6 @@ There are total 5 levels on our concept:
 
 Lower level modules(eg `:common:common-models`) can be used by higher level modules(eg `:trendyol:authentication`) or in its level if not creating circular dependency.
 Level of a module is determined by its highest architectural level. For example `:trendyol:elite` has all 3 layers(ui, domain and data) and it's a level 1 but `:trendyol:filter-ui` has only ui layer but it's also a level 1 module.
+Level 2 and level 3 modules should be used across minimum 2 modules; otherwise do not separate as new module, use in higher level module.
 
 This separation helped us to create modularized by providing clear sight about dependency boundaries.
