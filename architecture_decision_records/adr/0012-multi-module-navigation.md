@@ -1,7 +1,7 @@
 
 # Gradle Rules  
 
- * Status: accepted  
+ * Status: deprecated
  * Date: 2021-06-24
 
 ## Decision
