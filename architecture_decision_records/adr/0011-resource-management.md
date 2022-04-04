@@ -1,7 +1,7 @@
 
 # Gradle Rules  
 
- * Status: accepted  
+ * Status: updated
  * Date: 2022-04-04
 
 ## Decision
