@@ -33,11 +33,13 @@
 > *ActionEvent can be used for ***passing a triggered event*** from viewmodel to fragment.*
 
 | Private Attribute Name | Public Attribute Name| Included Class|Description|
-| :-------- | :------- | :------------------------- || :------------------------- |
+| :-------- | :------- | :------------------------- | :------------------------- |
 | `_showVariantsDialog` | `showVariantsDialog` | `SingleLiveEvent<T>/Channel<T>` | __show__ keyword can be used for showing popup, dialog etc. on UI to user. |
 | `_navigateOtherMerchants` | `navigateOtherMerchants` | `ActionEvent/ActionChannel` | __navigate__ keyword can be used for navigating to a fragment.|
 | `_sendAddFavoriteClick`| `sendAddFavoriteClick` | `ActionEvent/ActionChannel` | __send__ keyword can be used for sending an analytic event or firebase event etc. |
 | `_showHeaderOnBoarding`| `showHeaderOnBoarding` | `ActionEvent/ActionChannel` | __show__ keyword can be used for showing a dialog or onBoarding on the screen. |
 | `_closePopup`| `closePopup`| `ActionEvent` | __close__ keyword can be used for closing a dialog or onBoarding on the screen.|
 | `_startAuthentication`| `startAuthentication`| `ActionEvent/ActionChannel` | __start__ keyword can be used for starting a flow like authentication flow. |
-| `_addressAdditionEvent`| `addressAdditionEvent`| `ActionEvent/ActionChannel` | add __event__ at to end of the naming of the ActionEvent attribute when the attribute in created inside of __SharedViewModel__. |
+| `_addressAdditionEvent`| `addressAdditionEvent`| `ActionEvent/ActionChannel` | add __event__ at to end of the naming of the ActionEvent attribute when the attribute in created inside of __SharedViewModel__ |
+
+  
