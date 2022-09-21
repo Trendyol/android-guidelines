@@ -6,8 +6,8 @@
 
 >*Every liveData, stateFlow ActionEvent.. etc. must have a public and a prive field as below. They should be placed top to bottom like this;*
 
-    private val _statusViewState = MutableStateFlow(MealFilterStatusViewState())
-    val statusViewState = _statusViewState.asStateFlow()
+    private val _socialLoginType = MutableSharedFlow<SocialLoginType>()
+    val socialLoginType = _socialLoginType.asSharedFlow()
 
     private val _pageViewState = MutableLiveData<JustForYouPageViewState>()
     val pageViewState : LiveData<JustForYouPageViewState> = _pageViewState
@@ -19,11 +19,11 @@
 
 | Type | Private Attribute Name | Private Included Class | Public Attribute Name | Public Included Class    | Description                |
 | :-------- | :-------- | :------- | :------------------------- | :------------------------- | :-------------------------|
-| `ProductDetailPageViewState` | `_pageViewState`| `MutableLiveData<T> / MutableStateFlow<T> / MutableSharedFlow<T>`| `pageViewState` | `LiveData<ProductDetailPageViewState> / StateFlow<T> / SharedFlow<T>`  | for __main__ recyclerView listing in a fragment |
-| `ProductDetailSliderPageViewState` | `_sliderPageViewState` | `MutableLiveData<T> / MutableStateFlow<T> / MutableSharedFlow<T>`| `sliderPageViewState`| `LiveData<ProductDetailSliderPageViewState> / StateFlow<T> / SharedFlow<T>` |  for __sublisting__ in a fragment |
-| `ProductDetailStatusViewState` | `_statusViewState` | `MutableLiveData<T> / MutableStateFlow<T> / MutableSharedFlow<T>` | `statusViewState`| `LiveData<ProductDetailStatusViewState> / StateFlow<T> / SharedFlow<T>`  | for __main__ state management in a fragment |
-| `ProductDetailSliderViewState` | `_sliderStatusViewState` | `MutableLiveData<T> / MutableStateFlow<T> / MutableSharedFlow<T>` | `sliderStatusViewState`| `LiveData<ProductDetailSliderViewState> / StateFlow<T> / SharedFlow<T>` | for __sub__ state management in a fragment|
-| `Boolean` | `_isFavorite` | `MutableLiveData<T> / MutableStateFlow<T> / MutableSharedFlow<T>` | `isFavorite`| `LiveData<Boolean> / StateFlow<T> / SharedFlow<T>`  | primitive type's responsibility should described by naming  |
+| `ProductDetailPageViewState` | `_pageViewState`| `MutableLiveData<T> / MutableStateFlow<T>`| `pageViewState` | `LiveData<ProductDetailPageViewState> / StateFlow<T>`  | for __main__ recyclerView listing in a fragment |
+| `ProductDetailSliderPageViewState` | `_sliderPageViewState` | `MutableLiveData<T> / MutableStateFlow<T>`| `sliderPageViewState`| `LiveData<ProductDetailSliderPageViewState> / StateFlow<T>` |  for __sublisting__ in a fragment |
+| `ProductDetailStatusViewState` | `_statusViewState` | `MutableLiveData<T> / MutableStateFlow<T>` | `statusViewState`| `LiveData<ProductDetailStatusViewState> / StateFlow<T>`  | for __main__ state management in a fragment |
+| `ProductDetailSliderViewState` | `_sliderStatusViewState` | `MutableLiveData<T> / MutableStateFlow<T>` | `sliderStatusViewState`| `LiveData<ProductDetailSliderViewState> / StateFlow<T>` | for __sub__ state management in a fragment|
+| `Boolean` | `_isFavorite` | `MutableLiveData<T> / MutableStateFlow<T>` | `isFavorite`| `LiveData<Boolean> / StateFlow<T>`  | primitive type's responsibility should described by naming  |
 
 
 > *Every Action Event, Channel etc. must have a keyword to start of the event's name like;* ***navigate, send, show, close, start***
@@ -40,6 +40,7 @@
 | `_showHeaderOnBoarding`| `showHeaderOnBoarding` | `ActionEvent/ActionChannel` | __show__ keyword can be used for showing a dialog or onBoarding on the screen. |
 | `_closePopup`| `closePopup`| `ActionEvent` | __close__ keyword can be used for closing a dialog or onBoarding on the screen.|
 | `_startAuthentication`| `startAuthentication`| `ActionEvent/ActionChannel` | __start__ keyword can be used for starting a flow like authentication flow. |
-| `_addressAdditionEvent`| `addressAdditionEvent`| `ActionEvent/ActionChannel` | add __event__ at to end of the naming of the ActionEvent attribute when the attribute in created inside of __SharedViewModel__ |
+| `_addressAdditionEvent`| `addressAdditionEvent`| `ActionEvent/ActionChannel` | add __event__ at to end of the naming of the ActionEvent attribute when the attribute in created inside of __SharedViewModel__. Because the event can be related with different flows for each viewModel |
+| `_viewEvent`| `viewEvent`| `SingleLiveEvent<SealedClass> / Channel<SealedClass>` | add __event__ at to end of the naming of the ActionEvent attribute when the attribute type is enum or sealed class.
 
   
