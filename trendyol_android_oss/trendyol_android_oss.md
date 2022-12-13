@@ -11,3 +11,6 @@ Showcase is a tooltip library. It will highlight the view and show tooltip on it
 
 # [android-ui-components](https://github.com/Trendyol/android-ui-components)
 UI Components for Android by Trendyol Android team. UI Components includes several custom views for Android platform to make developers life easier!
+
+# [MapsKit](https://github.com/Trendyol/MapsKit)
+MapsKit is a all-in-one library that supports both HMS and GMS maps.
