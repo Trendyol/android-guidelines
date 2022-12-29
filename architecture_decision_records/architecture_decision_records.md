@@ -17,5 +17,6 @@ This architecture decision log (ADL) is the collection of all ADRs created and m
 - ~~[ADR-0012](adr/0012-multi-module-navigation.md) - Multi module navigation~~
 - [ADR-0013](adr/0013-use-view-binding-to-bind-view-and-state.md) - Use ViewBinding to Bind View and State
 - [ADR-0014](adr/0014-navigation-between-pages.md) - Navigation between pages
+- [ADR-0015](adr/0015-viewmodel_fields_naming_guideline.md.md) - ViewModel Fields Naming Guideline
 
 For new ADRs, please use [template.md](template.md) as basis. When this template was creating, we inspired from [MADR](https://adr.github.io/madr/).
