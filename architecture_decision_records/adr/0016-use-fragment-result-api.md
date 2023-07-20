@@ -18,4 +18,4 @@ In the context of the problem stated above, we decided to handle these communica
 recommended Fragment Result API due to the several advantages it provides compared to other
 communication methods.
 For more details, please visit the page below.
-![Fragment Result API](https://developer.android.com/guide/fragments/communicate#fragment-result)
+[Fragment Result API](https://developer.android.com/guide/fragments/communicate#fragment-result)
