@@ -18,6 +18,7 @@ In the context of creating new modules should follow this rules:
 - `:impl` modules should include `.impl` at the and of the package name.
 
 Module Path: *:channel-group*:channel-name:feature-name-*architectural-level:api|impl*
+
 Package Name: com.trendyol.*channelgroup*.channelname.featurename.*architecturallevel.impl*
 
 | module name | package name |
@@ -28,4 +29,4 @@ Package Name: com.trendyol.*channelgroup*.channelname.featurename.*architectural
 | :trendyol:checkout-ui | com.trendyol.checkout |
 | :mlbs:meal:checkout:api | com.trendyol.mlbs.meal.checkout |
 | :mlbs:meal:checkout:impl | com.trendyol.mlbs.meal.checkout.impl |
-| :common:widget-domain:impl | com.trendyol.common.widget.domain.impl |
+| :common:widget-domain:impl | com.trendyol.common.widgetdomain.impl |
