@@ -19,5 +19,6 @@ This architecture decision log (ADL) is the collection of all ADRs created and m
 - [ADR-0014](adr/0014-navigation-between-pages.md) - Navigation between pages
 - [ADR-0015](adr/0015-viewmodel_fields_naming_guideline.md.md) - ViewModel Fields Naming Guideline
 - [ADR-0016](adr/0016-use-fragment-result-api.md) - Using Fragment Result API
+- [ADR-0017](adr/0017-ndk-usage-and-obfuscation.md) - NDK Usage and Obfuscation Guidelines
 
 For new ADRs, please use [template.md](template.md) as basis. When this template was creating, we inspired from [MADR](https://adr.github.io/madr/).
