@@ -1,3 +1,5 @@
+
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Trendyol/android-guidelines/badge)](https://scorecard.dev/viewer/?uri=github.com/Trendyol/android-guidelines)
 # Android Guidelines (🔄 continuous progress 🔄)
 List of Architecture and code guidelines at Trendyol when developing for Android.
 
