@@ -548,29 +548,13 @@ class ExampleViewModelTest {
 
 ### Test Coverage Guidelines
 
-#### ✅ MUST
-
-| Class Type                          | Description                                                                 |
-|-------------------------------------|-----------------------------------------------------------------------------|
-| **UseCase, UseCaseImpl, ViewModel, Decider, DeciderImpl, Validator** | Contains business logic and state management. Critically important.         |
-| **ViewState, EpoxyItem**            | Represents states sent to the UI; essential for UI correctness.              |
-
----
-
-#### ⚖️ MAYBE
-
-| Class Type               | Description                                                                 |
-|---------------------------|-----------------------------------------------------------------------------|
-| **Builder, DiffCallback, Mapper, MapperImpl, Converter, DeepLinkItem, DeeplinkItem, Item, Ext, Extension, Extensions,Initializer, Interceptor, Reporter** | Simple transformations are optional; if complex business logic exists → **MUST** |
-| **Repository, RepositoryImpl**            | Simple CRUD is optional; if caching/error handling etc. exists → **MUST**   |
-
----
-
-#### 🚫 EXCLUSION
-
-| Class Type                     | Description                                                                 |
-|--------------------------------|-----------------------------------------------------------------------------|
-| **Arguments, Response, Activity, Fragment, View, Dialog, Button, BottomSheet, AppBar, ProgressBar, SearchBar, Binder, Module, Card, Event, DelphoiModel, EventModel, EventManager, Listener, Component, ComponentFactory, ComponentKey, Config, Content, Content, CookieManager, Dao, EpoxyModel, Exception, Adapter, ImpressionManager, Type, Key, List, UiModel, UIModel, Provider, FragmentProvider, FragmentProviderImpl, IntentProvider, IntentProviderImpl, BottomSheetProvider, BottomSheetProvider, DialogProvider, DialogProviderImpl, ViewModelProvider, ViewModelProviderImpl, Request, Result, Screen, Service, Signal, Status, TestTags, Header, Text, Title, Icon, ViewHolder, WidgetItem, WidgetType** | Mostly UI/carrier classes; if they don't contain business logic, testing is unnecessary. |
+| Category   | Class Type                                                                                                    | Description                                                                 |
+|-----------|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| ✅ MUST    | **UseCase, UseCaseImpl, ViewModel, Decider, DeciderImpl, Validator**                                        | Contains business logic and state management. Critically important.         |
+| ✅ MUST    | **ViewState, EpoxyItem**                                                                                     | Represents states sent to the UI; essential for UI correctness.             |
+| ⚖️ MAYBE  | **Builder, DiffCallback, Mapper, MapperImpl, Converter, DeepLinkItem, DeeplinkItem, Item, Ext, Extension, Extensions, Initializer, Interceptor, Reporter** | Simple transformations are optional; if complex business logic exists → **MUST** |
+| ⚖️ MAYBE  | **Repository, RepositoryImpl**                                                                               | Simple CRUD is optional; if caching/error handling etc. exists → **MUST**   |
+| 🚫 EXCLUSION | **Arguments, Response, Activity, Fragment, View, Dialog, Button, BottomSheet, AppBar, ProgressBar, SearchBar, Binder, Module, Card, Event, DelphoiModel, EventModel, EventManager, Listener, Component, ComponentFactory, ComponentKey, Config, Content, CookieManager, Dao, EpoxyModel, Exception, Adapter, ImpressionManager, Type, Key, List, UiModel, UIModel, Provider, FragmentProvider, FragmentProviderImpl, IntentProvider, IntentProviderImpl, BottomSheetProvider, DialogProvider, DialogProviderImpl, ViewModelProvider, ViewModelProviderImpl, Request, Result, Screen, Service, Signal, Status, TestTags, Header, Text, Title, Icon, ViewHolder, WidgetItem, WidgetType** | Mostly UI/carrier classes; if they don't contain business logic, testing is unnecessary. |
 
 ## 8. SDK Configuration in Test Classes
 
