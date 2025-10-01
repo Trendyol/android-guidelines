@@ -552,7 +552,7 @@ class ExampleViewModelTest {
 
 | Class Type                          | Description                                                                 |
 |-------------------------------------|-----------------------------------------------------------------------------|
-| **UseCase, ViewModel, Validator, Decider** | Contains business logic and state management. Critically important.         |
+| **UseCase, UseCaseImpl, ViewModel, Decider, DeciderImpl, Validator** | Contains business logic and state management. Critically important.         |
 | **ViewState, EpoxyItem**            | Represents states sent to the UI; essential for UI correctness.              |
 
 ---
@@ -561,8 +561,8 @@ class ExampleViewModelTest {
 
 | Class Type               | Description                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| **Mapper, Builder, Extensions** | Simple transformations are optional; if complex business logic exists → **MUST** |
-| **Repository**            | Simple CRUD is optional; if caching/error handling etc. exists → **MUST**   |
+| **Builder, DiffCallback, Mapper, MapperImpl, Converter, DeepLinkItem, DeeplinkItem, Item, Ext, Extension, Extensions,Initializer, Interceptor, Reporter** | Simple transformations are optional; if complex business logic exists → **MUST** |
+| **Repository, RepositoryImpl**            | Simple CRUD is optional; if caching/error handling etc. exists → **MUST**   |
 
 ---
 
@@ -570,7 +570,7 @@ class ExampleViewModelTest {
 
 | Class Type                     | Description                                                                 |
 |--------------------------------|-----------------------------------------------------------------------------|
-| **Activity, Fragment, View, Model** | Mostly UI/carrier classes; if they don't contain business logic, testing is unnecessary. |
+| **Arguments, Response, Activity, Fragment, View, Dialog, Button, BottomSheet, AppBar, ProgressBar, SearchBar, Binder, Module, Card, Event, DelphoiModel, EventModel, EventManager, Listener, Component, ComponentFactory, ComponentKey, Config, Content, Content, CookieManager, Dao, EpoxyModel, Exception, Adapter, ImpressionManager, Type, Key, List, UiModel, UIModel, Provider, FragmentProvider, FragmentProviderImpl, IntentProvider, IntentProviderImpl, BottomSheetProvider, BottomSheetProvider, DialogProvider, DialogProviderImpl, ViewModelProvider, ViewModelProviderImpl, Request, Result, Screen, Service, Signal, Status, TestTags, Header, Text, Title, Icon, ViewHolder, WidgetItem, WidgetType** | Mostly UI/carrier classes; if they don't contain business logic, testing is unnecessary. |
 
 ## 8. SDK Configuration in Test Classes
 
