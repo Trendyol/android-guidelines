@@ -474,7 +474,7 @@ val testCoroutineRule = TestCoroutineRule()
 ```kotlin
 @Test
 fun `Given valid input, When useCase is called, Then emits expected result`() =
-    testCoroutineRule.runBlockingTest {
+    testCoroutineRule.runTest {
         // Given
         coEvery { repository.getData() } returns expectedData
 
